@@ -1,0 +1,39 @@
+# Dependências
+node_modules/
+.pnpm-store/
+
+# Build e Saída
+.next/
+out/
+build/
+dist/
+
+# Variáveis de Ambiente (CRÍTICO: Nunca subir para o GitHub)
+.env
+.env.local
+.env.aws
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDEs e Sistema
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.log
+
+# Arquivos de Teste e Cobertura
+coverage/
+.nyc_output
+
+# Temporários
+.temp/
+.tmp/
